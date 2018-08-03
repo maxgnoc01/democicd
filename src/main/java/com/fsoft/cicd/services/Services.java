@@ -15,9 +15,10 @@ public class Services {
 		}
 	}
 	public List<Models> getAll(){
-		if (list.isEmpty()) {
-			init();
-		}
+//		if (list.isEmpty()) {
+//			init();
+//		}
+		init();
 		return list;
 	}
 	public Models getById (int id) {
