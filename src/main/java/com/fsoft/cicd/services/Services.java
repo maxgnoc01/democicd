@@ -22,9 +22,10 @@ public class Services {
 		return list;
 	}
 	public Models getById (int id) {
-		if (list.isEmpty()) {
-			init();
-		}
+//		if (list.isEmpty()) {
+//			init();
+//		}
+		init();
 		for (int i = 0; i < list.size();i++) {
 			if (list.get(i).getId() == id) return list.get(i);
 		}
