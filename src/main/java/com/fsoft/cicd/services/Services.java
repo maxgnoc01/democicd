@@ -15,17 +15,17 @@ public class Services {
 		}
 	}
 	public List<Models> getAll(){
-//		if (list.isEmpty()) {
-//			init();
-//		}
-		init();
+		if (list.isEmpty()) {
+			init();
+		}
+//		init();
 		return list;
 	}
 	public Models getById (int id) {
-//		if (list.isEmpty()) {
-//			init();
-//		}
-		init();
+		if (list.isEmpty()) {
+			init();
+		}
+//		init();
 		for (int i = 0; i < list.size();i++) {
 			if (list.get(i).getId() == id) return list.get(i);
 		}
