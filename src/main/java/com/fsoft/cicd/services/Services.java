@@ -5,7 +5,7 @@ import java.util.*;
 import com.fsoft.cicd.models.Models;
 
 public class Services {
-	private String format = "Hello %c";
+	private String format = "yebye %c";
 	private List<Models> list = new ArrayList<Models>();
 	
 	private void init() {
