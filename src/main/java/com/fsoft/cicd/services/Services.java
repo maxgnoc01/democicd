@@ -9,7 +9,7 @@ public class Services {
 	private List<Models> list = new ArrayList<Models>();
 	
 	private void init() {
-		for (int i =0;i<5;i++) {
+		for (int i =0;i<6;i++) {
 			Models model = new Models(i, String.format(format, 65+i));
 			list.add(model);
 		}
